@@ -1,7 +1,6 @@
 #logo{
     float: left;
     margin-left: 30px;
-
     }
 
 #nav{
@@ -61,4 +60,26 @@ html{
 #logo h1{
     font-family: "Comic Sans MS", black;
     color: black;
+}
+
+#nav a:hover {
+    text-decoration: underline;
+    background-color: blue;
+    color: white;
+    margin:0;
+    padding: 5px;
+    font-family: "Comic Sans MS";
+}
+
+#logo a:hover {
+    text-decoration: none;
+    cursor: default;
+}
+#logolink{
+    color: #000;
+    text-decoration: none;
+}
+
+    #content{
+    box-shadow: 10px 10px 5px black;
 }
