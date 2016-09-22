@@ -1,0 +1,73 @@
+<!doctype html>
+    <html>
+    <head>
+
+        <title>Minha Primeira Página</title>
+
+        <meta name="author" content="your name" />
+        <meta name="description" content="" />
+        <meta charset="utf-8">
+
+     <!-- você deve sempre adicionar sua folha de estilo (CSS) na tag HEAD,
+     para que seja iniciado o carregamento antes que a página HTML seja exibida -->
+        <link rel="stylesheet" href="style.css" />
+        <style>
+           #nav a:hover {
+                text-decoration: underline;
+                background-color: blue;
+                color: white;
+                margin:0;
+                padding: 5px;
+                font-family: "Comic Sans MS";
+            }
+
+            #logo a:hover {
+                text-decoration: none;
+                cursor: default;
+            }
+            #logolink{
+                color: #000;
+                text-decoration: none;
+            }
+
+            #content{
+                box-shadow: 10px 10px 5px black;
+            }
+
+        </style>
+    </head>
+    <body>
+        <!-- Conteudo da sua pagina em BODY -->
+        <div id="page">
+            <div id="logo">
+                <h1><a href="/" id="logolink">Minha Primeira Página</a> </h1>
+            </div>
+            <div id="nav">
+                <ul>
+                    <li><a href="#home.html">Home</a> </li>
+                    <li><a href="#sobre.html">Sobre</a> </li>
+                    <li><a href="#contato.html">Contato</a> </li>
+                </ul>
+            </div>
+            <div class="clear">
+            </div>
+            <div id="content">
+                <h2>Home</h2>
+                <p>
+                    Esta é minha primeira página web! Fui capaz de codificar todo o HTML e CSS!
+                </p>
+                <p>
+                    Eu posso usar minhas habilidades para criar sites para a
+                    minha empresa, meus amigos e família, meu blog ou portfólio!
+                </p>
+            </div>
+            <div id="footer">
+
+                <p>
+                    Webpage by <a href="/" target="_blank">André Filipi Gomes de Souza da Silva</a>
+                </p>
+                <hr>
+            </div>
+        </div>
+    </body>
+    </html>
