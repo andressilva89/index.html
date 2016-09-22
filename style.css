@@ -5,16 +5,13 @@
 
 #nav{
     float: right;
-    position: absolute;
     top: 8px;
     right: 16px;
     }
    
 #nav li{
     display: inline-block;
-    background-color: #918c74;
-    font-family: "Arial Black";
-    font-size: 18pt;
+    background-color: blue;
     margin: 5px;
     }
 
@@ -23,7 +20,7 @@
     }
     
 html{
-    background-color: darkgrey;
+    background-color: grey;
     width:1300px;
     height: 500px;
    }
@@ -40,12 +37,16 @@ html{
 
 #content h2, #content p{
     margin-left: 20px;
-    font-family: "Times New Roman";
-    color: #fb0014;
-}
+    font-family: "Arial";
+    }
 
 #content h2{
     padding-top: 20px;
+    color: blue;
+}
+
+#content p{
+    color: Black;
 }
 
 #footer {
@@ -59,7 +60,11 @@ html{
 }
 
 #nav a{
-    margin: 8px;;
+    text-decoration:none;
+    margin: 8px;
+    font-family: "Georgia";
+    font-size: 10pt;
+    color: white;
 }
 
 #logo h1{
@@ -69,7 +74,7 @@ html{
 
 #nav a:hover {
     text-decoration: underline;
-    background-color: blue;
+    background-color: #9dbbe2;
     color: white;
     margin:0;
     padding: 5px;
@@ -85,6 +90,6 @@ html{
     text-decoration: none;
 }
 
-    #content{
+#content{
     box-shadow: 10px 10px 5px black;
 }
