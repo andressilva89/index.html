@@ -8,8 +8,8 @@
     position: absolute;
     top: 8px;
     right: 16px;
-    margin-right: 40px;
-   }
+    }
+   
 #nav li{
     display: inline-block;
     background-color: #918c74;
@@ -21,6 +21,7 @@
 .clear{
     clear:both;
     }
+    
 html{
     background-color: darkgrey;
     width:1300px;
