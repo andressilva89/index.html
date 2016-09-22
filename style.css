@@ -47,6 +47,11 @@ html{
     padding-top: 20px;
 }
 
+#footer {
+    width: auto;
+    height: auto;
+}
+
 #footer p{
     margin-left: 890px;
     font-weight: bolder;
