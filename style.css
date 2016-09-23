@@ -19,11 +19,9 @@
     clear:both;
     }
     
-html{
+body{
     background-color: grey;
-    width:1300px;
-    height: 500px;
-   }
+}
 
 #content{
     background-color: white;
