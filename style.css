@@ -1,29 +1,28 @@
 #logo{
     float: left;
     margin-left: 30px;
-    }
+}
 
 #nav{
     float: right;
     top: 8px;
     right: 16px;
-    }
-   
+}
+
 #nav li{
     display: inline-block;
-    background-color: blue;
+    background-color: #5359ff;
     margin: 5px;
     font-size:18pt;
-    }
+}
 
 .clear{
     clear:both;
-    }
-    
-body{
-    background-color: grey;
-    width: 800;
 }
+
+body{
+    background-color: lightgrey;
+    }
 
 #content{
     background-color: white;
@@ -32,12 +31,13 @@ body{
     margin-left: 30px;
     margin-right: 30px;
     height: 500px;
+    box-shadow: 10px 10px 5px black;
 }
 
 #content h2, #content p{
     margin-left: 20px;
     font-family: "Arial";
-    }
+}
 
 #content h2{
     padding-top: 20px;
@@ -49,21 +49,21 @@ body{
 }
 
 #footer p{
-    margin-left: 1500px;
+    text-align: right;
     font-weight: bolder;
     font-family: "Arial";
 }
 
 #nav a{
     text-decoration:none;
-    margin: 8px;
     font-family: "Georgia";
     font-size: 18pt;
     color: white;
+    box-shadow: 0px 0px 5px black;
 }
 
 #logo h1{
-    font-family: "Comic Sans MS", black;
+    font-family: "Arial", black;
     color: black;
 }
 
@@ -71,9 +71,8 @@ body{
     text-decoration: underline;
     background-color: #9dbbe2;
     color: white;
-    margin:0;
-    padding: 5px;
-    font-family: "Comic Sans MS";
+    font-size: 18pt;
+    font-family: "Georgia";
 }
 
 #logo a:hover {
@@ -83,8 +82,4 @@ body{
 #logolink{
     color: #000;
     text-decoration: none;
-}
-
-#content{
-    box-shadow: 10px 10px 5px black;
 }
