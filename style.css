@@ -47,12 +47,8 @@ body{
     color: Black;
 }
 
-#footer {
-    width: 800px;
-}
-
 #footer p{
-    margin-left: 500px;
+    margin-left: 400px;
     font-weight: bolder;
     font-family: "Arial";
 }
