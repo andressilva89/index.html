@@ -21,6 +21,7 @@
     
 body{
     background-color: grey;
+    width: 800;
 }
 
 #content{
@@ -29,7 +30,7 @@ body{
     margin-bottom: 100px;
     margin-left: 30px;
     margin-right: 30px;
-    width: 500px;
+    height: 500px;
 }
 
 #content h2, #content p{
@@ -47,7 +48,7 @@ body{
 }
 
 #footer {
-    width: 1300px;
+    width: 800px;
 }
 
 #footer p{
